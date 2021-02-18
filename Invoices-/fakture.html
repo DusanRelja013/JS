@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./fakture.css">
+
+    <title>Invoice</title>
+</head>
+
+<body>
+    <header>
+        <h1>Invoice Accounting</h1>
+    </header>
+    <section class="input-container">
+        <input type="text" id="txt-company-name" placeholder="Company Name" required />
+        <input type="text" id="txt-company-pib" placeholder="Company PIB" required />
+        <div><label>Date:</label><input type="date" id="txt-time" required placeholder="Date" /></div>
+        <input type="text" id="txt-value" placeholder="Value in RSD" required />
+        <input type="submit" id="btn-add" value="Insert" />
+    </section>
+
+    <button id="fakture">Loguj sve fakture</button>
+
+    <!-- <section id="item-list">
+        <div class="item-container">
+            <div class="item-info">
+                <div>
+                    <label class="company-name">BootcampPizza</label>
+                    <label class="company-pib">12345678</label>
+                    <label class="time-created">2019-11-18</label>
+                    <label class="price-value">1000 RSD</label>
+                </div>
+                <div>
+                    <label class="insert-timestamp">
+                            <span>[2019-11-18]</span><span>@10:29</span>
+                    </label>
+                </div>
+            </div>
+            <div class="item-actions">
+                <button class="item-trashCan">DELETE</button>
+            </div>
+        </div>
+    </section> -->
+    <script src="fakture.js"></script>
+</body>
+
+</html>
