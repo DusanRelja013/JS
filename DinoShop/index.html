@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Марко Краљевић</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="form-style-2">
+      <form id="forma">
+        <label for="kupac">
+          <span>Купац: <span class="required">*</span></span>
+          <br />
+        </label>
+        <input type="text" class="input-field" name="kupac" id="kupac" />
+
+        <label for="dino">
+          <span>Диносаурус: <span class="required">*</span></span>
+          <br />
+        </label>
+        <select name="dino" class="select-field" id="select-dino">
+          <!-- ОВДЕ УБАЦИТИ ОПЦИЈЕ -->
+          <option value="izaberite">Izaberite Dinosaurusa</option>
+          <!-- <option value="test">TEST</option> -->
+        </select>
+        <label for="napomena">
+          <span>Напомена:</span>
+          <br />
+        </label>
+        <textarea
+          name="napomena"
+          class="textarea-field"
+          id="napomena"
+        ></textarea>
+
+        <label
+          ><span> </span><input type="submit" value="Наручи" id="poruci"
+        /></label>
+      </form>
+    </div>
+    <button id="btn-all">Избриши све наруџбине</button>
+
+    <hr />
+    <div id="item-container">
+      <h1>Наруџбине:</h1>
+      <hr />
+      <!-- <div class="item">
+            <p><span>Купац:</span> Ана Перић</p>
+            <p><span>Напомена:</span> Упаковати као рођендански поклон</p>
+            <p><span>Диносаурус: </span> Efraasia</p>
+            <p><span>Цена: </span> 199</p>
+            <p><button>Обриши</button></p>
+        </div>
+        <div class="item">
+            <p><span>Купац:</span> Марко Краљевић</p>
+            <p><span>Напомена:</span> /</p>
+            <p><span>Диносаурус: </span> Iguanodon</p>
+            <p><span>Цена: </span> 374</p>
+            <p><button>Обриши</button></p>
+        </div> -->
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
