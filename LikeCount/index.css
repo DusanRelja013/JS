@@ -1,0 +1,65 @@
+body {
+    display:grid;
+    margin: 0 auto;
+}
+form {
+    padding: 20px;
+
+}
+
+input[type=text],
+input[type=password] {
+    width: 60%;
+    padding: 10px 20px;
+    margin: 20px 20px;
+    box-sizing: border-box;
+}
+input[type=button],
+input[type=submit],
+input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+#search{
+    margin: 20px auto;
+}
+input, #search {
+    width: 35%;
+}
+#posts {
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.post {
+    background-color: blanchedalmond;
+    padding: 10px;
+    border: burlywood solid;
+    width: 500px;
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    transition: transform .2s
+}
+
+.zoom {
+    transform: scale(1.2);
+    z-index: 1000;
+}
+
+.zoomout {
+    transform: scale(1);
+}
